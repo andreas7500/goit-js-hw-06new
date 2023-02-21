@@ -14,7 +14,7 @@
 
 // Category: Technologies
 // Elements: 5
-
+////////////////////////////////////////////////////////////
 const elemsItem = document.querySelectorAll('li.item');
 
 console.log(elemsItem);
