@@ -16,6 +16,9 @@
 // Elements: 5
 
 const elemsItem = document.querySelectorAll('li.item');
+
+console.log(elemsItem);
+
 console.log(elemsItem.length);
 for (const elem of elemsItem) {
   console.log('Category:', elem.firstElementChild.textContent);
